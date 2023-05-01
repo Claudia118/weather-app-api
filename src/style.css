@@ -1,0 +1,85 @@
+body {
+  height: 100%;
+}
+
+form {
+  display: block;
+  width: 100%;
+  height: 70px;
+  /* border: 1px solid red; */
+  margin: 20px auto;
+}
+
+.container {
+  background: #bcdbdf;
+  /* border: 1px solid #008000; */
+  margin: 40px auto;
+  width: 900px;
+  height: 550px;
+  border-radius: 10px;
+}
+
+.city-input {
+  font-size: 24px;
+  text-align: center;
+  width: 60%;
+  height: 30px;
+  border: solid 1px;
+  border-color: #fff;
+  border-radius: 50px;
+  padding: 25px 10px;
+  margin: 10px 5px;
+}
+
+.city-btn {
+  font-size: 20px;
+  padding: 8px 30px;
+  margin: 10px 5px;
+  background: #235784;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+}
+
+.geoLocation-btn {
+  font-size: 20px;
+  padding: 8px 30px;
+  margin: 10px 5px;
+  background: #0c1041;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+}
+
+.row {
+  /* border: 1px solid yellow; */
+  align-items: center;
+  height: 200px;
+}
+
+.col {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  margin: 0 25px;
+  padding: 0;
+}
+
+.sun-icon {
+  font-size: 45px;
+  margin: 0 60px;
+}
+
+.col-1 {
+  margin: 20px;
+}
+
+.temp {
+  font-size: 55px;
+  margin: 0 25px;
+}
+
+.weekdays span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
